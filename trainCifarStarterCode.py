@@ -9,7 +9,7 @@ import matplotlib as mp
 # setup
 
 def weight_variable(shape):
-    '''
+    """
     Initialize weights
     :param shape: shape of weights, e.g. [w, h ,Cin, Cout] where
     w: width of the filters
@@ -17,7 +17,7 @@ def weight_variable(shape):
     Cin: the number of the channels of the filters
     Cout: the number of filters
     :return: a tensor variable for weights with initial values
-    '''
+    """
 
     # IMPLEMENT YOUR WEIGHT_VARIABLE HERE
 
